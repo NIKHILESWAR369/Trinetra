@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.landing-page {
+  max-width: 900px;
+  width: 100%;
+  padding: 2rem;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.landing-page h1 {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ddd;
+}
+
+.features-section h2 {
+  margin-bottom: 1rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.feature-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+.feature-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.start-btn {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #e65c00;
+  transform: scale(1.05);
+}
+
+/* Feature Details Page */
+.feature-details-page {
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.feature-details-page .feature-logo {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  z-index: 2;
+}
+
+.back-btn:hover {
+  transform: scale(1.2);
+}
+
+.feature-details-page h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.feature-full-desc {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+}
+
+.dashboard .feature-logo {
+  width: 80px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard .back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.dashboard .back-btn:hover {
+  transform: scale(1.2);
+}
